@@ -8349,7 +8349,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   font-weight: 400;
-  color: #666666; }
+  color: #9e9e9e; }
   body.offcanvas {
     overflow-x: hidden; }
     body.offcanvas #colorlib-aside {
@@ -9055,7 +9055,7 @@ textarea.form-control {
 .img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: 60% center; }
 
 .bg-light {
   background: #f8f9fa !important; }
