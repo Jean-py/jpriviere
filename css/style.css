@@ -6706,7 +6706,7 @@ button.bg-dark:focus {
   width: 75% !important; }
 
 .w-100 {
-  width: 100% !important; }
+  width: 107% !important; }
 
 .w-auto {
   width: auto !important; }
@@ -8358,17 +8358,17 @@ body {
       -ms-transform: translateX(0);
       -o-transform: translateX(0);
       transform: translateX(0);
-      width: 270px;
+      width: 320px;
       background: #fff;
       z-index: 999;
       position: fixed; }
     body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
       top: 0;
-      -moz-transform: translateX(220px);
-      -webkit-transform: translateX(220px);
-      -ms-transform: translateX(220px);
-      -o-transform: translateX(220px);
-      transform: translateX(220px); }
+      -moz-transform: translateX(250px);
+      -webkit-transform: translateX(250px);
+      -ms-transform: translateX(250px);
+      -o-transform: translateX(250px);
+      transform: translateX(250px); }
 
 a {
   -webkit-transition: .3s all ease;
@@ -8413,7 +8413,7 @@ h1, h2, h3, h4, h5,
   transition: all 0.5s ease; }
   @media (min-width: 992px) {
     #colorlib-aside {
-      width: 25%; } }
+      width: 26%; } }
   @media (max-width: 991.98px) {
     #colorlib-aside {
       width: 270px;
@@ -8445,12 +8445,10 @@ h1, h2, h3, h4, h5,
     #colorlib-aside #colorlib-logo a {
       display: inline-block;
       text-align: left;
-      color: #000000;
+      color: #FFC107;
       overflow: hidden;
       -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
       -moz-background-clip: text;
-      -moz-text-fill-color: transparent;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center; }
@@ -8732,20 +8730,20 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #f3c623;
+    background: #ffc007;
     border: 1px solid #f3c623;
     color: #000000; }
     .btn.btn-primary:hover {
-      border: 1px solid #f3c623;
+      border: 1px solid #ffc007;
       background: transparent;
-      color: #f3c623; }
+      color: #ffc007; }
     .btn.btn-primary.btn-outline-primary {
-      border: 1px solid #f3c623;
+      border: 1px solid #ffc007;
       background: transparent;
       color: #f3c623; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 1px solid transparent;
-        background: #f3c623;
+        background: #ffc007;
         color: #fff; }
 
 .portfolio-wrap {
@@ -9062,7 +9060,7 @@ textarea.form-control {
   background: #f8f9fa !important; }
 
 .bg-primary {
-  background: #f3c623 !important; }
+  background: #ffc007 !important; }
 
 .image-popup {
   cursor: -webkit-zoom-in;
