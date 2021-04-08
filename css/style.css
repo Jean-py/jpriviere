@@ -8413,7 +8413,7 @@ h1, h2, h3, h4, h5,
   transition: all 0.5s ease; }
   @media (min-width: 992px) {
     #colorlib-aside {
-      width: 26%; } }
+      width: 24%; } }
   @media (max-width: 991.98px) {
     #colorlib-aside {
       width: 270px;
@@ -8428,12 +8428,13 @@ h1, h2, h3, h4, h5,
     display: block;
     width: 100%;
     font-weight: normal;
-    font-size: 60px;
-    line-height: .8;
-    font-family: "Abril Fatface", cursive; }
+    font-size: 50px;
+    line-height: 1.1;
+    font-family: 'Ubuntu', sans-serif;
+  }
     @media (max-width: 1199.98px) {
       #colorlib-aside #colorlib-logo {
-        font-size: 40px; } }
+        font-size: 35px; } }
     #colorlib-aside #colorlib-logo span {
       display: block; }
     @media (max-width: 991.98px) {
@@ -8443,9 +8444,9 @@ h1, h2, h3, h4, h5,
       #colorlib-aside #colorlib-logo {
         font-size: 50px; } }
     #colorlib-aside #colorlib-logo a {
-      display: inline-block;
+      /*display: inline-block;*/
       text-align: left;
-      color: #FFC107;
+      color: #FFFFFF;
       overflow: hidden;
       -webkit-background-clip: text;
       -moz-background-clip: text;
