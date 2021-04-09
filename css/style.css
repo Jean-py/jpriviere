@@ -286,6 +286,11 @@ progress {
 output {
   display: inline-block; }
 
+p.p-title{
+    color: white;
+    display: inline
+}
+
 summary {
   display: list-item;
   cursor: pointer; }
