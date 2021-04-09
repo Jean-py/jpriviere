@@ -318,7 +318,8 @@ h5, .h5 {
   font-size: 1.25rem; }
 
 h6, .h6 {
-  font-size: 1rem; }
+  font-size: 0.8rem;color:#c2c2c2;
+}
 
 .lead {
   font-size: 1.25rem;
@@ -8430,7 +8431,8 @@ h1, h2, h3, h4, h5,
     font-weight: normal;
     font-size: 50px;
     line-height: 1.1;
-    font-family: 'Ubuntu', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
+      font-family: "Abril Fatface", cursive;s
   }
     @media (max-width: 1199.98px) {
       #colorlib-aside #colorlib-logo {
@@ -9055,8 +9057,8 @@ textarea.form-control {
 .img {
   background-size: 500px;
   background-repeat: no-repeat;
-  background-position: 60% center; }
-
+background-position: 40% 10%
+}
 .bg-light {
   background: #f8f9fa !important; }
 
