@@ -5,6 +5,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+    --background: #ffffff;
+    --text:#000000;
+
+
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -2226,6 +2230,7 @@ textarea.form-control {
   .btn:not(:disabled):not(.disabled) {
     cursor: pointer; }
 
+
 a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none; }
@@ -2662,7 +2667,9 @@ fieldset:disabled a.btn {
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
-
+.js-midheight {
+    height: 22rem;
+}
 .btn-block {
   display: block;
   width: 100%; }
@@ -2673,6 +2680,7 @@ input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%; }
+
 
 .fade {
   -webkit-transition: opacity 0.15s linear;
@@ -6965,7 +6973,7 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important; }
+  padding-top: 2rem !important; }
 
 .pr-5,
 .px-5 {
@@ -8445,10 +8453,10 @@ h1, h2, h3, h4, h5,
     display: block;
     width: 100%;
     font-weight: normal;
-    font-size: 50px;
+    /*font-size: 50px;*/
     line-height: 1.1;
     /*font-family: 'Ubuntu', sans-serif;*/
-      font-family: "Abril Fatface", cursive;s
+      font-family: "Poppins", Arial, sans-serif;
   }
     @media (max-width: 1199.98px) {
       #colorlib-aside #colorlib-logo {
@@ -8725,7 +8733,7 @@ h1, h2, h3, h4, h5,
 
 .ftco-about .text h2 {
   font-size: 40px;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Poppins", Arial, sans-serif;
   line-height: 1.2;
   color: #fff; }
   .ftco-about .text h2 span {
@@ -8816,7 +8824,7 @@ h1, h2, h3, h4, h5,
       font-size: 40px;
       display: inline-block;
       line-height: 1.3;
-      font-family: "Abril Fatface", cursive; }
+      font-family: "Poppins", Arial, sans-serif; }
       @media (max-width: 767.98px) {
         .portfolio-wrap .text h2 {
           font-size: 9vw; } }
@@ -8875,7 +8883,7 @@ h1, h2, h3, h4, h5,
       font-size: 40px;
       display: inline-block;
       line-height: 1.3;
-      font-family: "Abril Fatface", cursive; }
+      font-family: "Poppins", Arial, sans-serif; }
       @media (max-width: 767.98px) {
         .portfolio-wrap-2 .text h2 {
           font-size: 9vw; } }
@@ -8936,7 +8944,7 @@ h1, h2, h3, h4, h5,
       height: 500px; } }
 
 .single h1 {
-  font-family: "Abril Fatface", cursive;
+  font-family: "Poppins", Arial, sans-serif;
   color: #fff;
   font-size: 40px; }
 
@@ -9085,13 +9093,13 @@ textarea.form-control {
 .img {
   background-size: 500px;
   background-repeat: no-repeat;
-background-position: 40% 10%
+background-position: 50% 50%;
 }
 
 .img-center {
-    background-size: 500px;
+    background-size: 80%;
     background-repeat: no-repeat;
-    background-position: 40% 50%
+    background-position: 50% 50%
 }
 
 .bg-light {
