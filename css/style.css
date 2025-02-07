@@ -80,6 +80,10 @@ p {
   margin-top: 0;
   margin-bottom: 1rem; }
 
+.link-visible{
+  color: lightskyblue;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
